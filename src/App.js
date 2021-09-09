@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
-import ContactForm from './components/ContactForm';
-import Filter from './components/Filter';
-import ContactList from './components/ContactList'
-import Container from './components/Container';
+import ContactForm from 'components/ContactForm';
+import Filter from 'components/Filter';
+import ContactList from 'components/ContactList'
+import Container from 'components/Container';
 import { useDispatch, useSelector } from 'react-redux';
-import { operations } from './redux/contacts';
-import { getLoading } from './redux/contacts';
+import { operations } from 'redux/contacts';
+import { getLoading } from 'redux/contacts';
 import Loader from 'react-loader-spinner';
 import './App.scss';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
